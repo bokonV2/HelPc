@@ -1,0 +1,141 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #52C33C;
+  background-image: url("images/BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.white{
+  color: #fff!important;
+}
+.UPmenu a{
+  font-size: 25px;
+}
+.content span{
+  color: #000;
+}
+.disp{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.lato{
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.UPmenu{
+  height: 81px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.MLmenu{
+  margin-top: 5px;
+  height: 81px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.85);
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.MLmenu a img{
+  height: 65px;
+}
+.contacts{
+  font-size: 20px;
+}
+.main{
+  background-color: #fff;
+  margin-top: 120px;
+  height: 542px;
+}
+.tran{
+  background-color: transparent!important;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.main span{
+  font-size: 40px;
+}
+.content span{
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+.content table{
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.content table tr td:nth-child(1) {
+  width: 10%;
+  text-align: center;
+}
+.content table td{
+  border-bottom: 1px solid #fff;
+  padding: 5px 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+.content a img{
+  height: 50px;
+}
+.sp1{
+  color: #000;
+  font-weight: 800;
+  font-size: 40px;
+}
+.sp2{
+  color: #000;
+  font-weight: 600;
+  font-size: 25px;
+}
+.button{
+  font-weight: 600;
+  background: #52C33C;
+  width: fit-content;
+  margin-top: 15px;
+  padding: 15px;
+}
+.DWmenu{
+  height: 120px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.85);
+
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+.inform{
+  align-items: center;
+}
+.DWmenu table{
+  width: 80%;
+  table-layout: fixed;
+  margin-top: 20px;
+  padding: 5px;
+  color: #fff;
+  text-align: left;
+}
+.DWmenu table th{
+  font-size: 20px;
+  width: 30%;
+}
+.DWmenu table tr{
+}
+.DWmenu table td{
+  font-size: 14px;
+  font-weight: normal;
+}
